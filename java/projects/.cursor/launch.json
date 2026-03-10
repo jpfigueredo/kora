@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Producer (kafka-producer-api)",
+      "request": "launch",
+      "mainClass": "org.gustalab.kafka_producer_api.KafkaProducerApiApplication",
+      "projectName": "kafka-producer-api"
+    },
+    {
+      "type": "java",
+      "name": "Consumer (kafka-consumer-api)",
+      "request": "launch",
+      "mainClass": "org.gustalab.kafka_consumer_api.KafkaConsumerApiApplication",
+      "projectName": "kafka-consumer-api"
+    }
+  ]
+}
